@@ -7,6 +7,7 @@ Metadata:
 
   Authors:
     Description: Darryl Osborne (darrylo@amazon.com)
+    Description: Aviel Ossi (aviel@os.si)
   License:
     Description: 'Copyright 2018 Amazon.com, Inc. and its affiliates. All Rights Reserved.
                   SPDX-License-Identifier: MIT-0'
@@ -62,18 +63,18 @@ Parameters:
   DatabaseInstanceType:
     AllowedValues:
       - db.t2.small
-      - db.t2.medium
-      - db.r3.large
-      - db.r3.xlarge
-      - db.r3.2xlarge
-      - db.r3.4xlarge
-      - db.r3.8xlarge
-      - db.r4.large
-      - db.r4.xlarge
-      - db.r4.2xlarge
-      - db.r4.4xlarge
-      - db.r4.8xlarge
-      - db.r4.16xlarge
+      # - db.t2.medium
+      # - db.r3.large
+      # - db.r3.xlarge
+      # - db.r3.2xlarge
+      # - db.r3.4xlarge
+      # - db.r3.8xlarge
+      # - db.r4.large
+      # - db.r4.xlarge
+      # - db.r4.2xlarge
+      # - db.r4.4xlarge
+      # - db.r4.8xlarge
+      # - db.r4.16xlarge
     ConstraintDescription: Must be a valid RDS instance class.
     Default: db.t2.medium
     Description: The Amazon RDS database instance class.
